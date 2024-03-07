@@ -71,8 +71,7 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public int countCities() {
-        return 0;
-        // return cities.size();
+        return cities.size();
     }
     // read TDD wrong so working backwards so that github actions are correct
 }
